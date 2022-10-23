@@ -46,5 +46,13 @@
         "address": "Dhaka, Bangladesh",
         "contact": "luke.wells1212@example.com",
         "photoUrl": "https://randomuser.me/api/portraits/med/men/27.jpg"
+    },
+    {
+        "id": 8,
+        "gender": "male",
+        "name": "Luke Wells",
+        "address": "Dhaka, Bangladesh",
+        "contact": "luke.wells1212@example.com",
+        "photoUrl": "https://randomuser.me/api/portraits/med/men/27.jpg"
     }
 ]

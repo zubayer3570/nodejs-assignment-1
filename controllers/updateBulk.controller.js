@@ -1,7 +1,6 @@
 const fs = require("fs")
 module.exports.updateBulk = (req, res) => {
     const usersUpdate = req.body
-    console.log(req.body)
     fs.readFile('user-data.json', (err, data) => {
         const parsedData = JSON.parse(data)
         usersUpdate.forEach(userUpdate=> {
