@@ -16,5 +16,5 @@ app.use('/user/update', updateUser)
 app.use('/user/bulk-update', updateBulk)
 app.use('/user/delete', deleteUser)
 
-
-app.listen(8080, ()=>console.log("server is working fine!"))
+app.get("/", (req, res)=> res.send("server is working fine"))
+app.listen(8080)
