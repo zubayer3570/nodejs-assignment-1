@@ -7,8 +7,7 @@ const updateBulk  = require("./routes/updateBulk.route")
 const deleteUser  = require("./routes/deleteUser.router")
 const app = express()
 app.use(express.json())
-
-
+const port = process.env.PORT || 8080
 app.use('/user/random', randomUser)
 app.use('/user/all', allUser)
 app.use('/user/save', saveUser)
@@ -17,4 +16,4 @@ app.use('/user/bulk-update', updateBulk)
 app.use('/user/delete', deleteUser)
 
 app.get("/", (req, res)=> res.send("server is working fine"))
-app.listen(8080)
+app.listen(port)
