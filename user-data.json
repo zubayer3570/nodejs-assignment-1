@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "gender": "female",
+        "name": "Jennie",
+        "address": "Dhaka, Bangladesh",
+        "contact": "jennie@example.com",
+        "photoUrl": "https://randomuser.me/api/portraits/med/men/75.jpg"
+    },
+    {
+        "id": 2,
+        "gender": "male",
+        "name": "Luke Wells",
+        "address": "Dhaka, Bangladesh",
+        "contact": "luke.wells@example.com",
+        "photoUrl": "https://randomuser.me/api/portraits/med/men/27.jpg"
+    },
+    {
+        "id": 4,
+        "gender": "female",
+        "name": "Raeysa",
+        "address": "Dhaka, Bangladesh",
+        "contact": "raeysa@example.com",
+        "photoUrl": "https://randomuser.me/api/portraits/med/men/31.jpg"
+    },
+    {
+        "id": 5,
+        "gender": "male",
+        "name": "Sharif Ahmed",
+        "address": "Dhaka, Bangladesh",
+        "contact": "jennie@example1111.com",
+        "photoUrl": "https://randomuser.me/api/portraits/med/men/32.jpg"
+    },
+    {
+        "id": 6,
+        "gender": "female",
+        "name": "Jennie1",
+        "address": "Dhaka, Bangladesh",
+        "contact": "jennie@example22222.com",
+        "photoUrl": "https://randomuser.me/api/portraits/med/men/72.jpg"
+    }
+]
